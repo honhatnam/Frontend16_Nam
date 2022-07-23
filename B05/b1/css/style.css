@@ -1,0 +1,27 @@
+*{padding:0;margin:0px;}
+.slide{}
+i{color:white;}
+.banner{
+max-width:1600px;
+max-height:auto;
+}
+.banner img{width: 100%;
+    height: 500px;
+    object-fit: cover;
+    position: relative;
+}
+.next,.revious{}
+.dot {
+    width: 20px;
+    height: 20px;
+    background-color:blue;
+}
+
+.direction{
+    display: flex;
+    position:absolute;
+    top: 0px;
+    right: 0px;
+
+}
+.next{}

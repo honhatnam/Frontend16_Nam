@@ -1,0 +1,38 @@
+*{margin:0px;padding:0px;}
+.container{
+margin:0 auto;
+}
+
+.slide{
+position: relative;
+}
+.banner{
+    background-color:blanchedalmond;
+    height:500px;
+    
+}
+.banner-title{
+    position: absolute;
+    top:50%;
+   left:10%;
+}
+
+.slide-button{
+    position: absolute;
+    bottom:10px;
+    right:50%;
+}
+
+.slide-button a{
+    margin:0 5px;
+    display: inline-block;
+    width: 15px;
+    height:15px;
+    border-radius: 50%;
+    background-color:white;
+}
+
+.active{
+    display: block;
+    background-color:green;
+}
